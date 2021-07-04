@@ -34,6 +34,7 @@ h3 {
     font-size: 30px;
     color: var(secondary-color);
     padding: 120px, 30px;
+    line-height: 5;
 }
 
 .hero {
