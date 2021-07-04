@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #F9F7FE;
+    --primary-color: white;
     --secondary-color: #4C4C4C;
     --third-color: #999999;
     --h1-font-family: 'Playfair Display', serif;
@@ -33,6 +33,7 @@ h3 {
     font-family: var(--h1-font-family);
     font-size: 30px;
     color: var(secondary-color);
+    padding: 120px, 30px;
 }
 
 .hero {
@@ -65,6 +66,19 @@ padding: 120px 30px;
 }
 
 @media (max-width: 960px) {
+    h1 {
+        font-size: 36px;
+        line-height: 1.5;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    h3 {
+        font-size: 22px;
+    }
+    .hero {
+        padding: 60px 18px;
+    }
     .project-description {
         padding: 0;
         text-align: center;
