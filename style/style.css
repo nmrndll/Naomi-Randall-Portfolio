@@ -38,7 +38,7 @@ h3 {
 .hero {
 background: var(primary-color);
 text-align: center;
-padding: 200px 30px;
+padding: 120px 30px;
 }
 
 .btn-branding {
@@ -58,4 +58,15 @@ padding: 200px 30px;
     border-radius: 12px;
     line-height: 16px;
     padding: 20px 20px;
+}
+
+.project-description {
+    padding: 0 20px 0;
+}
+
+@media (max-width: 960px) {
+    .project-description {
+        padding: 0;
+        text-align: center;
+    }
 }
