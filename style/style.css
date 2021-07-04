@@ -4,9 +4,16 @@
     --third-color: #999999;
     --h1-font-family: 'Playfair Display', serif;
     --h2-font-family: 'Cardo', serif;
+    --p-font-family: 'Darker Grotesque', sans-serif;
 }
 body {
-    font-family: var(h1-font-family);
+    font-family: var(--h1-font-family);
+}
+p {
+    font-family: var(--p-font-family);
+    font-size: 18px;
+    color: var(--secondary-color);
+    line-height: 1.5;
 }
 
 h1 {
@@ -22,6 +29,11 @@ h2 {
     line-height: 2;
     padding: 30px;
 }
+h3 {
+    font-family: var(--h1-font-family);
+    font-size: 30px;
+    color: var(secondary-color);
+}
 
 .hero {
 background: var(primary-color);
@@ -30,10 +42,19 @@ padding: 200px 30px;
 }
 
 .btn-branding {
-    font-family: 'Playfair Display', serif;
+    font-family: var(--h1-font-family);
     font-size: 16px;
     color: var(--primary-color);
     background: var(--third-color);
+    border-radius: 12px;
+    line-height: 16px;
+    padding: 20px 20px;
+}
+.btn-branding-outline {
+    font-family: var(--h1-font-family);
+    font-size: 16px;
+    color: var(--third-color);
+    border: 1.5px solid var(--third-color);
     border-radius: 12px;
     line-height: 16px;
     padding: 20px 20px;
