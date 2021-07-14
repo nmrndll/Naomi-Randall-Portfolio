@@ -67,9 +67,18 @@ padding: 120px 30px;
 }
 
 .about {
-    background: var(primary-color);
-text-align: center;
-padding: 120px 30px;
+    background: var(--primary-color);
+    text-align: left;
+    padding: 120px 30px;
+    font-family: var(--h1-font-family);
+}
+
+.about-footer {
+    background: var(--primary-color);
+    text-align: left;
+    font-size: 14px;
+    font-family: var(--p-font-family);
+
 }
 
 @media (max-width: 960px) {
@@ -83,11 +92,14 @@ padding: 120px 30px;
     h3 {
         font-size: 22px;
     }
-    .hero {
+    .hero
+    .about
+    .about-footer {
         padding: 60px 18px;
     }
     .project-description {
         padding: 0;
         text-align: center;
     }
+   
 }
