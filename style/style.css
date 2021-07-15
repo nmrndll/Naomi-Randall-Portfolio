@@ -6,9 +6,11 @@
     --h2-font-family: 'Cardo', serif;
     --p-font-family: 'Darker Grotesque', sans-serif;
 }
+
 body {
     font-family: var(--h1-font-family);
 }
+
 p {
     font-family: var(--p-font-family);
     font-size: 18px;
@@ -29,6 +31,7 @@ h2 {
     line-height: 2;
     padding: 30px;
 }
+
 h3 {
     font-family: var(--h1-font-family);
     font-size: 30px;
@@ -52,6 +55,7 @@ padding: 120px 30px;
     line-height: 16px;
     padding: 20px 20px;
 }
+
 .btn-branding-outline {
     font-family: var(--h1-font-family);
     font-size: 16px;
@@ -69,16 +73,16 @@ padding: 120px 30px;
 .about {
     background: var(--primary-color);
     text-align: left;
-    padding: 120px 30px;
+    padding: 160px 450px 50px 100px;
     font-family: var(--h1-font-family);
 }
 
 .about-footer {
     background: var(--primary-color);
     text-align: left;
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: bold;
     font-family: var(--p-font-family);
-
 }
 
 @media (max-width: 960px) {
@@ -101,5 +105,4 @@ padding: 120px 30px;
         padding: 0;
         text-align: center;
     }
-   
 }
