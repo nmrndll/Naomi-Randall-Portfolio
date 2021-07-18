@@ -15,6 +15,7 @@ body {
     font-family: var(--h1-font-family);
     font-size: 70px;
     color: var(secondary-color);
+    padding: 300px 20px 10px 20px;
 }
 
 .hero h2 {
@@ -28,7 +29,6 @@ body {
 .hero {
 background: var(primary-color);
 text-align: center;
-padding: 120px 30px;
 }
 
 .btn-branding {
@@ -76,6 +76,8 @@ padding: 120px 30px;
     color: var(--secondary-color);
     line-height: 1.5;
 }
+
+
 @media (max-width: 960px) {
     .content h1 {
         font-size: 26px;
