@@ -105,6 +105,21 @@ nav li.active a {
   color: var(--secondary-color);
 }
 
+footer .social-links a {
+  margin: 100px 20px;
+  color: var(--third-color);
+  background: var(--primary-color);
+  padding: 5px 10px;
+  border-radius: 20%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: var(--primary-color);
+  background: var(--third-color);
+}
+
 @media (max-width: 960px) {
     .content h1 {
         font-size: 26px;
